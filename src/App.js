@@ -1,14 +1,10 @@
 import './App.css';
-import { Button } from '@material-ui/core';
-import Dishes from './components/Dishes'
-import Album from './components/Album'
+import Vote from './components/Vote'
 
 function App() {
   return (
     <div className="App">
-        <Button color="primary">Hello World</Button>
-        <Dishes></Dishes>
-        <Album></Album>
+        <Vote></Vote>
 
     </div>
   );
